@@ -1,3 +1,7 @@
+require("dotenv").config();
+require("./config/mongo");
+require("./helpers/hbs"); // custom functions adding features to hbs templates
+
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
